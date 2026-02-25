@@ -60,7 +60,7 @@ export const siteConfig = {
   siteNameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'My Link Page',
   bio: process.env.NEXT_PUBLIC_BIO || '안녕하세요! 여기서 저의 모든 링크를 확인하세요.',
   bioEn: process.env.NEXT_PUBLIC_BIO_EN || 'Hello! Check out all my links here.',
-  avatarUrl: process.env.NEXT_PUBLIC_AVATAR_URL || null,
+  avatarUrl: process.env.NEXT_PUBLIC_AVATAR_URL || `${_basePath}/images/1772058092722-upload.webp`,
   theme: process.env.NEXT_PUBLIC_THEME || 'gradient',
   bgStyle: (process.env.NEXT_PUBLIC_BG_STYLE || 'gradient') as BgStyle,
   primaryColor: process.env.NEXT_PUBLIC_PRIMARY_COLOR || '#6366f1',
